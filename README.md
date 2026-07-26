@@ -15,16 +15,7 @@ Whether you are a student, professional, entrepreneur, leader, or anyone seeking
 
 <header>
 
-    <div class="logo">
-        <img src="images/logo.png" alt="CEE-CROWN Logo">
-    </div>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="register.html">Register</a>
-        <a href="#speakers">Speakers</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
 </header>
 
