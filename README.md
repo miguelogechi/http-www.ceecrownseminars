@@ -192,3 +192,235 @@ Speaking in the Right Way
 <p>
 
 © 2026 CEE-CROWN EDUCOM SERVICES LIMITED>
+/* ==========================
+   THE POWER OF SPEECH 2026
+   CEE-CROWN EDUCOM SERVICES LIMITED
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0B4F6C;
+    padding:15px 40px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo img{
+    width:70px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Hero */
+
+.hero{
+    background:linear-gradient(rgba(11,79,108,.8),
+                rgba(11,79,108,.8)),
+                url("../images/flyer.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    font-size:28px;
+    color:#FFD700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+/* Button */
+
+.button{
+    display:inline-block;
+    background:#FFD700;
+    color:#000;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#fff;
+    transform:translateY(-3px);
+}
+
+/* Sections */
+
+section{
+    padding:70px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0B4F6C;
+}
+
+/* Event */
+
+.event{
+    background:white;
+}
+
+.event ul{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+/* Countdown */
+
+.countdown{
+    background:#0B4F6C;
+    color:white;
+    text-align:center;
+}
+
+#timer{
+    font-size:40px;
+    font-weight:bold;
+    margin-top:25px;
+}
+
+/* Seats */
+
+.seats{
+    text-align:center;
+}
+
+.seats h1{
+    font-size:70px;
+    color:green;
+}
+
+/* Early Bird */
+
+.early{
+    background:#fff8dc;
+    text-align:center;
+}
+
+.early h1{
+    font-size:50px;
+    color:#d35400;
+}
+
+/* Speakers */
+
+#speakers{
+    background:white;
+}
+
+.speaker{
+    background:#f2f2f2;
+    margin:20px auto;
+    padding:25px;
+    border-radius:10px;
+    max-width:700px;
+    text-align:center;
+}
+
+/* About */
+
+.about{
+    background:#eef4f8;
+    text-align:center;
+}
+
+/* Buttons */
+
+.buttons{
+    text-align:center;
+}
+
+.buttons .button{
+    margin:10px;
+}
+
+/* Footer */
+
+footer{
+    background:#0B4F6C;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero h2{
+    font-size:22px;
+}
+
+#timer{
+    font-size:28px;
+}
+
+.seats h1{
+    font-size:50px;
+}
+
+.early h1{
+    font-size:36px;
+}
+
+}
